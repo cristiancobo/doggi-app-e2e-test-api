@@ -37,6 +37,7 @@ describe("When user wants find a dog breed by id | FIND BY ID ", ()=>{
         expect(dogbreed_test.lifeExpectancy).to.be.a('number');
         expect(dogbreed_test.dogBreedNatures).to.be.a('array');
         expect(dogbreed_test.dogBreedColors).to.be.a('array');
+        
     });
 
   
