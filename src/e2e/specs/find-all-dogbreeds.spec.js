@@ -3,7 +3,7 @@ const { expect } = require('chai');
 const { BASE_URL} = require('../../utils/const')
 
 let response;
-describe("When user wants list all dog breeds", ()=>{
+describe("When user wants list all dog breeds | FIND ALL", ()=>{
     before(async()=>{
         response=  await axios.get(BASE_URL)
     });
